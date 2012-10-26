@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Coup.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="114" topLine="0" />
+	</File>
+	<File name="Coup.h" open="1" top="0" tabpos="3">
+		<Cursor position="449" topLine="0" />
+	</File>
+	<File name="Feuille.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="24" topLine="0" />
+	</File>
+	<File name="Humain.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="156" topLine="0" />
+	</File>
+	<File name="Humain.h" open="1" top="0" tabpos="7">
+		<Cursor position="32" topLine="0" />
+	</File>
+	<File name="IA.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="52" topLine="0" />
+	</File>
+	<File name="IA.h" open="0" top="0" tabpos="0">
+		<Cursor position="49" topLine="0" />
+	</File>
+	<File name="Joueur.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="Joueur.h" open="1" top="0" tabpos="5">
+		<Cursor position="160" topLine="0" />
+	</File>
+	<File name="Pierre.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="152" topLine="0" />
+	</File>
+	<File name="Pierre.h" open="0" top="0" tabpos="0">
+		<Cursor position="186" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="448" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

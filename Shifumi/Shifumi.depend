@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1351260937 source:c:\users\louis\git\tp_shifumi\shifumi\coup.cpp
+	"Coup.h"
+
+1351260929 c:\users\louis\git\tp_shifumi\shifumi\coup.h
+	<string>
+
+1351261188 c:\users\louis\git\tp_shifumi\shifumi\ciseaux.h
+	"Coup.h"
+
+1351261166 source:c:\users\louis\git\tp_shifumi\shifumi\feuille.cpp
+	"Feuille.h"
+
+1351261188 c:\users\louis\git\tp_shifumi\shifumi\feuille.h
+	"Coup.h"
+
+1351261188 source:c:\users\louis\git\tp_shifumi\shifumi\pierre.cpp
+	"Pierre.h"
+
+1351261188 c:\users\louis\git\tp_shifumi\shifumi\pierre.h
+	"Coup.h"
+
+1351260767 source:c:\users\louis\git\tp_shifumi\shifumi\main.cpp
+	<iostream>
+	"Coup.h"
+	"Pierre.h"
+	"Ciseaux.h"
+	"Feuille.h"
+
+1351261188 source:c:\users\louis\git\tp_shifumi\shifumi\ciseaux.cpp
+	"Ciseaux.h"
+
+1351263228 source:c:\users\louis\git\tp_shifumi\shifumi\humain.cpp
+	"Humain.h"
+
+1351262045 c:\users\louis\git\tp_shifumi\shifumi\humain.h
+	"Joueur.h"
+
+1351263285 c:\users\louis\git\tp_shifumi\shifumi\joueur.h
+	<iostream>
+	<string>
+	"Coup.h"
+	"Pierre.h"
+	"Ciseaux.h"
+	"Feuille.h"
+
+1351263401 source:c:\users\louis\git\tp_shifumi\shifumi\ia.cpp
+	"IA.h"
+	<cmath>
+	<cstdlib>
+
+1351263348 c:\users\louis\git\tp_shifumi\shifumi\ia.h
+	"Joueur.h"
+
+1351261456 source:c:\users\louis\git\tp_shifumi\shifumi\joueur.cpp
+	"Joueur.h"
+
