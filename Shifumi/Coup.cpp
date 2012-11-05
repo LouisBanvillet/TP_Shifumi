@@ -7,6 +7,12 @@ Coup::Coup()
     //ctor
 }
 
+Coup::Coup(Joueur* j)
+{
+    //ctor
+    joueur = j;
+}
+
 Coup::~Coup()
 {
     //dtor

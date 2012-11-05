@@ -7,6 +7,7 @@ class Ciseaux : public Coup
 {
     public:
         Ciseaux();
+        Ciseaux(Joueur*);
         virtual ~Ciseaux();
         virtual string type() const ;
     protected:

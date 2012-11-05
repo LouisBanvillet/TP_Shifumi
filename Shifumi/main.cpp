@@ -1,27 +1,38 @@
 #include <iostream>
-#include "Coup.h"
-#include "Pierre.h"
-#include "Ciseaux.h"
-#include "Feuille.h"
-#include "Joueur.h"
-#include "Humain.h"
-#include "IA.h"
-
+#include "Partie.h"
+#include <ctime>
+#include <cstdlib>
 
 using namespace std;
 
 int main()
 {
-    //Coup* pierre = new Pierre();
-    //Coup* ciseaux = new Ciseaux();
+    srand(time(0));
 
-    //if(*ciseaux < *pierre){cout << "naze" << endl;}
-    //cout << *pierre << endl;
+    Partie* partie = new Partie();
 
-    Humain* j1 = new Humain();
+    bool continu=true;
 
-    cout << "voilà le coup tapé" << j1->obtenir_coup();
 
+    while(continu)
+    {
+
+        int nbPts;
+        cout << "En combien de points?" << endl;
+        cin >> nbPts;
+
+        while(partie->maxScore() < nbPts){
+            partie->tourDeJeu();
+            partie->afficherScore();
+        }
+        cout << "La partie est terminée. Le joueur " << partie->gagnant() << " gagne la partie" << endl;
+        cout << "Voulez-vous refaire une partie? (Y/N)" << endl;
+
+        string rep;
+        cin >> rep;
+        if(rep == "N"){continu = false;}
+        partie = new Partie();
+    }
 
     return 0;
 }

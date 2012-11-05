@@ -1,8 +1,11 @@
 #include "Ciseaux.h"
 
-Ciseaux::Ciseaux()
+Ciseaux::Ciseaux():Coup()
 {
-    //ctor
+}
+
+Ciseaux::Ciseaux(Joueur* j):Coup(j)
+{
 }
 
 Ciseaux::~Ciseaux()

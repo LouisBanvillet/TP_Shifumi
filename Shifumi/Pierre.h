@@ -7,6 +7,7 @@ class Pierre : public Coup
 {
     public:
         Pierre();
+        Pierre(Joueur*);
         virtual ~Pierre();
         virtual string type() const ;
     protected:

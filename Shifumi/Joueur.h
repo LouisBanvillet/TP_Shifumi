@@ -16,8 +16,12 @@ class Joueur
         Joueur();
         virtual ~Joueur();
         virtual Coup* obtenir_coup()=0;
+        int getScore(){return score;};
+        void incrementScore(){score++;};
 
     protected:
+        int score;
+
     private:
 };
 

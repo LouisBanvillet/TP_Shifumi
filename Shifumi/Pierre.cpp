@@ -2,9 +2,12 @@
 
 using namespace std;
 
-Pierre::Pierre()
+Pierre::Pierre():Coup()
 {
-    //ctor
+}
+
+Pierre::Pierre(Joueur* j):Coup(j)
+{
 }
 
 Pierre::~Pierre()

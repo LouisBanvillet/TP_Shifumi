@@ -1,6 +1,6 @@
 #include "Humain.h"
 
-Humain::Humain()
+Humain::Humain():Joueur()
 {
     //ctor
 }
@@ -12,7 +12,7 @@ Humain::~Humain()
 
 Coup* Humain::obtenir_coup() {
     string coupChoisi;
-    Coup* coup = new Pierre();
+    Coup* coup = new Pierre(this);
 
     cout << "Choisissez un coup, entrez : feuille, pierre ou ciseaux." << endl;
 

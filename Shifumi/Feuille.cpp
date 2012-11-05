@@ -2,9 +2,11 @@
 
 using namespace std;
 
-Feuille::Feuille()
+Feuille::Feuille():Coup()
 {
-    //ctor
+}
+Feuille::Feuille(Joueur* j):Coup(j)
+{
 }
 
 Feuille::~Feuille()

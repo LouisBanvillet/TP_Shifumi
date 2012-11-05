@@ -7,6 +7,7 @@ class Feuille : public Coup
 {
     public:
         Feuille();
+        Feuille(Joueur*);
         virtual ~Feuille();
         virtual string type() const ;
     protected:

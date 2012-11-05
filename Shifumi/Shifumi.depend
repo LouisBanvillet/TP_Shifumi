@@ -55,3 +55,68 @@
 1351261456 source:c:\users\louis\git\tp_shifumi\shifumi\joueur.cpp
 	"Joueur.h"
 
+1352124601 source:c:\users\louis\documents\github\tp_shifumi\shifumi\coup.cpp
+	"Coup.h"
+
+1352124601 c:\users\louis\documents\github\tp_shifumi\shifumi\coup.h
+	<string>
+
+1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\feuille.cpp
+	"Feuille.h"
+
+1352124128 c:\users\louis\documents\github\tp_shifumi\shifumi\feuille.h
+	"Coup.h"
+
+1352123335 source:c:\users\louis\documents\github\tp_shifumi\shifumi\humain.cpp
+	"Humain.h"
+
+1352121693 c:\users\louis\documents\github\tp_shifumi\shifumi\humain.h
+	"Joueur.h"
+
+1352125783 c:\users\louis\documents\github\tp_shifumi\shifumi\joueur.h
+	<iostream>
+	<string>
+	"Coup.h"
+	"Pierre.h"
+	"Ciseaux.h"
+	"Feuille.h"
+
+1352124147 c:\users\louis\documents\github\tp_shifumi\shifumi\pierre.h
+	"Coup.h"
+
+1352124147 c:\users\louis\documents\github\tp_shifumi\shifumi\ciseaux.h
+	"Coup.h"
+
+1352126783 source:c:\users\louis\documents\github\tp_shifumi\shifumi\ia.cpp
+	"IA.h"
+	<cmath>
+	<cstdlib>
+
+1352113539 c:\users\louis\documents\github\tp_shifumi\shifumi\ia.h
+	"Joueur.h"
+
+1352125011 source:c:\users\louis\documents\github\tp_shifumi\shifumi\joueur.cpp
+	"Joueur.h"
+
+1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\pierre.cpp
+	"Pierre.h"
+
+1352127513 source:c:\users\louis\documents\github\tp_shifumi\shifumi\main.cpp
+	<iostream>
+	"Partie.h"
+	<ctime>
+	<cstdlib>
+
+1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\ciseaux.cpp
+	"Ciseaux.h"
+
+1352128695 source:c:\users\louis\documents\github\tp_shifumi\shifumi\partie.cpp
+	"Partie.h"
+
+1352128368 c:\users\louis\documents\github\tp_shifumi\shifumi\partie.h
+	<iostream>
+	<string>
+	"Joueur.h"
+	"Humain.h"
+	"IA.h"
+
