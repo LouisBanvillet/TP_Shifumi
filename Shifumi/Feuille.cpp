@@ -1,9 +1,10 @@
 #include "Feuille.h"
 
-using namespace std;
+int Feuille::nombre = 0;
 
 Feuille::Feuille():Coup()
 {
+    nombre++;
 }
 Feuille::Feuille(Joueur* j):Coup(j)
 {

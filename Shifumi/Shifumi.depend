@@ -61,13 +61,13 @@
 1352124601 c:\users\louis\documents\github\tp_shifumi\shifumi\coup.h
 	<string>
 
-1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\feuille.cpp
+1352131063 source:c:\users\louis\documents\github\tp_shifumi\shifumi\feuille.cpp
 	"Feuille.h"
 
-1352124128 c:\users\louis\documents\github\tp_shifumi\shifumi\feuille.h
+1352131396 c:\users\louis\documents\github\tp_shifumi\shifumi\feuille.h
 	"Coup.h"
 
-1352123335 source:c:\users\louis\documents\github\tp_shifumi\shifumi\humain.cpp
+1352130273 source:c:\users\louis\documents\github\tp_shifumi\shifumi\humain.cpp
 	"Humain.h"
 
 1352121693 c:\users\louis\documents\github\tp_shifumi\shifumi\humain.h
@@ -81,10 +81,10 @@
 	"Ciseaux.h"
 	"Feuille.h"
 
-1352124147 c:\users\louis\documents\github\tp_shifumi\shifumi\pierre.h
+1352131243 c:\users\louis\documents\github\tp_shifumi\shifumi\pierre.h
 	"Coup.h"
 
-1352124147 c:\users\louis\documents\github\tp_shifumi\shifumi\ciseaux.h
+1352131396 c:\users\louis\documents\github\tp_shifumi\shifumi\ciseaux.h
 	"Coup.h"
 
 1352126783 source:c:\users\louis\documents\github\tp_shifumi\shifumi\ia.cpp
@@ -98,19 +98,19 @@
 1352125011 source:c:\users\louis\documents\github\tp_shifumi\shifumi\joueur.cpp
 	"Joueur.h"
 
-1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\pierre.cpp
+1352131228 source:c:\users\louis\documents\github\tp_shifumi\shifumi\pierre.cpp
 	"Pierre.h"
 
-1352128946 source:c:\users\louis\documents\github\tp_shifumi\shifumi\main.cpp
+1352131393 source:c:\users\louis\documents\github\tp_shifumi\shifumi\main.cpp
 	<iostream>
 	"Partie.h"
 	<ctime>
 	<cstdlib>
 
-1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\ciseaux.cpp
+1352131063 source:c:\users\louis\documents\github\tp_shifumi\shifumi\ciseaux.cpp
 	"Ciseaux.h"
 
-1352129503 source:c:\users\louis\documents\github\tp_shifumi\shifumi\partie.cpp
+1352130309 source:c:\users\louis\documents\github\tp_shifumi\shifumi\partie.cpp
 	"Partie.h"
 
 1352129765 c:\users\louis\documents\github\tp_shifumi\shifumi\partie.h

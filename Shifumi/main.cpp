@@ -36,7 +36,18 @@ int main()
             partie->afficherScore();
         }
 
-        cout << "La partie est terminée. Le joueur " << partie->gagnant() << " gagne la partie" << endl;
+        cout << "La partie est terminée. Le joueur " << partie->gagnant() << " gagne la partie !" << endl;
+
+        //Affichage du compteur des instances
+        cout << "Instance de Pierre : " << Pierre::nombre << endl;
+        cout << "Instance de Feuille : " << Feuille::nombre << endl;
+        cout << "Instance de Ciseaux : " << Ciseaux::nombre << endl;
+
+        //Remet les compteurs d'instance à 0
+        Pierre::raz();
+        Feuille::raz();
+        Ciseaux::raz();
+
         cout << "Voulez-vous refaire une partie? (Y/N)" << endl;
 
         string rep;

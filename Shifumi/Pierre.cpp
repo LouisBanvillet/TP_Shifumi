@@ -1,9 +1,10 @@
 #include "Pierre.h"
 
-using namespace std;
+int Pierre::nombre = 0;
 
 Pierre::Pierre():Coup()
 {
+    nombre++;
 }
 
 Pierre::Pierre(Joueur* j):Coup(j)

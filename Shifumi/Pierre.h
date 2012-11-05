@@ -10,6 +10,8 @@ class Pierre : public Coup
         Pierre(Joueur*);
         virtual ~Pierre();
         virtual string type() const ;
+        static int nombre;
+        static void raz(){nombre = 0;};
     protected:
     private:
 };

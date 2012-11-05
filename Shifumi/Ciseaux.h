@@ -9,7 +9,9 @@ class Ciseaux : public Coup
         Ciseaux();
         Ciseaux(Joueur*);
         virtual ~Ciseaux();
-        virtual string type() const ;
+        virtual string type() const;
+        static int nombre;
+        static void raz(){nombre = 0;};
     protected:
     private:
 };

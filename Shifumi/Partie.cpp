@@ -29,11 +29,11 @@ void Partie::tourDeJeu(){
         cout << "Personne ne gagne le tour." << endl;
     }
     else if(*c1 < *c2){
-        cout << "Le joueur 2 gagne le tour!" << endl;
+        cout << "Le joueur 2 gagne le tour !" << endl;
         j2->incrementScore();
     }
     else{
-        cout << "Le joueur 1 gagne le tour" << endl;
+        cout << "Le joueur 1 gagne le tour !" << endl;
         j1->incrementScore();
     }
 }
@@ -41,8 +41,8 @@ void Partie::tourDeJeu(){
 //Méthode d'affichage du score des deux joueurs
 void Partie::afficherScore()
 {
-    cout << "Le joueur 1 a : " << j1->getScore() << " points" << endl;
-    cout << "Le joueur 2 a : " << j2->getScore() << " points" << endl;
+    cout << "Le joueur 1 a : " << j1->getScore() << " points." << endl;
+    cout << "Le joueur 2 a : " << j2->getScore() << " points." << endl;
 }
 
 //Méthode permettant d'obtenir le plus haut score pour savoir si la partie est terminée ou non

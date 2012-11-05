@@ -10,6 +10,8 @@ class Feuille : public Coup
         Feuille(Joueur*);
         virtual ~Feuille();
         virtual string type() const ;
+        static int nombre;
+        static void raz(){nombre = 0;};
     protected:
     private:
 };

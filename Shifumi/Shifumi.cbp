@@ -44,6 +44,8 @@
 		<Unit filename="IA.h" />
 		<Unit filename="Joueur.cpp" />
 		<Unit filename="Joueur.h" />
+		<Unit filename="Partie.cpp" />
+		<Unit filename="Partie.h" />
 		<Unit filename="Pierre.cpp" />
 		<Unit filename="Pierre.h" />
 		<Unit filename="main.cpp" />
