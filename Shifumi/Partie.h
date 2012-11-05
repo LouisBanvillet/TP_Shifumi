@@ -11,7 +11,7 @@ using namespace std;
 
 class Partie{
     public:
-        Partie();
+        Partie(int nbJoueur);
         ~Partie();
         void tourDeJeu();
         void afficherScore();
@@ -19,8 +19,8 @@ class Partie{
         int gagnant();
 
     protected:
-        Humain* j1;
-        IA* j2;
+        Joueur* j1;
+        Joueur* j2;
 
     private:
 };

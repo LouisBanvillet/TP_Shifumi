@@ -1,9 +1,15 @@
 #include "Partie.h"
 
-Partie::Partie()
+Partie::Partie(int nbJoueur)
 {
-    j1 = new Humain();
-    j2 = new IA();
+    if(nbJoueur == 2){
+        j1 = new Humain();
+        j2 = new Humain();
+    }
+    else{
+        j1 = new Humain();
+        j2 = new IA();
+    }
 }
 
 Partie::~Partie()
@@ -12,6 +18,7 @@ Partie::~Partie()
     delete j2;
 }
 
+//Méthode régissant un tour de jeu
 void Partie::tourDeJeu(){
     Coup* c1 = j1->obtenir_coup();
     Coup* c2 = j2->obtenir_coup();
@@ -31,12 +38,14 @@ void Partie::tourDeJeu(){
     }
 }
 
+//Méthode d'affichage du score des deux joueurs
 void Partie::afficherScore()
 {
     cout << "Le joueur 1 a : " << j1->getScore() << " points" << endl;
     cout << "Le joueur 2 a : " << j2->getScore() << " points" << endl;
 }
 
+//Méthode permettant d'obtenir le plus haut score pour savoir si la partie est terminée ou non
 int Partie::maxScore()
 {
     int max = 0;
@@ -47,6 +56,7 @@ int Partie::maxScore()
     return max;
 }
 
+//Détermine le gagnant
 int Partie::gagnant()
 {
     int gagnant = 0;
