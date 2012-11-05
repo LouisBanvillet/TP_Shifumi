@@ -101,7 +101,7 @@
 1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\pierre.cpp
 	"Pierre.h"
 
-1352127513 source:c:\users\louis\documents\github\tp_shifumi\shifumi\main.cpp
+1352128946 source:c:\users\louis\documents\github\tp_shifumi\shifumi\main.cpp
 	<iostream>
 	"Partie.h"
 	<ctime>
@@ -110,10 +110,10 @@
 1352123584 source:c:\users\louis\documents\github\tp_shifumi\shifumi\ciseaux.cpp
 	"Ciseaux.h"
 
-1352128695 source:c:\users\louis\documents\github\tp_shifumi\shifumi\partie.cpp
+1352129503 source:c:\users\louis\documents\github\tp_shifumi\shifumi\partie.cpp
 	"Partie.h"
 
-1352128368 c:\users\louis\documents\github\tp_shifumi\shifumi\partie.h
+1352129765 c:\users\louis\documents\github\tp_shifumi\shifumi\partie.h
 	<iostream>
 	<string>
 	"Joueur.h"
